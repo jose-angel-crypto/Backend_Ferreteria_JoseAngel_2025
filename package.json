@@ -1,9 +1,9 @@
 {
-  "name": "backend-ferreteria-brandon-2025",
+  "name": "backend-ferreteria-joseangel-2025",
   "version": "1.0.0",
   "description": "Backend Ferreteria",
   "license": "ISC",
-  "author": "Brandon Alexander Hermida Ocon",
+  "author": "Jose Angel Amador Urbina",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,9 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.3"
   }
 }
